@@ -2,7 +2,7 @@
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone git@gitlab.com:dataxys-group/crime_economy_italy_analysis.git
+git clone git@github.com:dataxys/crime_economy_italy_analysis.git
 cd crime_economy_italy_analysis
 ```
  Oppure
