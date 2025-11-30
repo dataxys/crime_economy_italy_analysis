@@ -66,11 +66,27 @@ docs/              # Documentation & methodology
 
 ## ## 📈 Key Findings
 
-> *[Da compilare dopo l'analisi]*
+## 🔑 KEY INSIGHTS
 
-- 🔴 **Finding 1:** [Brief insight]
-- 🟡 **Finding 2:** [Brief insight]
-- 🟢 **Finding 3:** [Brief insight]
+### 1. **Correlazione debole tra PIL e criminalità**
+- Province ricche ≠ Più/Meno crimini
+- PIL non predice direttamente la criminalità
+
+### 2. **Popolazione è il fattore principale**
+- Dimensione provincia spiega meglio i crimini totali
+- Normalizzazione essenziale per confronti
+
+### 3. **Outlier territoriali**
+- Alcune province hanno dinamiche uniche
+- Es: Milano, Roma, Napoli
+
+### 4. **Normalizzazione cambia tutto**
+- Crimini assoluti vs per 100k: storie diverse
+- Province piccole possono avere tassi alti
+
+### 5. **PIL ≠ Sicurezza**
+- Relazione complessa
+- Altri fattori: disoccupazione, istruzione, servizi
 
 📊 **Interactive Dashboard:** [Link to Power BI Public](#)
 
