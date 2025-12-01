@@ -52,17 +52,28 @@
 notebooks/          # Jupyter notebooks (analysis pipeline)
 data/processed/     # Clean datasets (CSV)
 visualizations/     # Power BI dashboard + screenshots
-scripts/            # Reusable Python functions
-docs/              # Documentation & methodology
 ```
-
+## 📁 Dataset
+- `delitti_completi_2018_2023.csv` - Delitti aggregati
+- `dataset_finale_powerbi.csv` - **Dataset completo per Power BI**
 ---
 ## 📊 Sample Visualizations
 
-*[Inserire screenshot dashboard/grafici]*
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dataxys/crime_economy_italy_analysis/blob/main/analysis.ipynb)
 
-![Crime Heatmap](visualizations/images/crime_heatmap.png)
-![GDP Correlation](visualizations/images/gdp_correlation.png)
+Analisi della relazione tra criminalità ed economia nelle province italiane.
+
+## Trend Nazionale
+![Trend](graphs/01_trend_nazionale.png)
+
+## Top 15 Province per Criminalità
+![Top 15](graphs/02_top15_province.png)
+
+## Criminalità vs PIL
+![Scatter](graphs/03_crimini_vs_pil.png)
+
+## Evoluzione Temporale
+![Heatmap](graphs/04_heatmap_evoluzione.png)
 
 ## ## 📈 Key Findings
 
