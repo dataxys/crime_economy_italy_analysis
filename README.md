@@ -44,7 +44,7 @@
 - **Visualization:** Matplotlib, Seaborn, Power BI
 - **Notebook Environment:** Google Colab
 - **Version Control:** Git, GitHub
-
+[Setup](#-setup-locale-5-minuti) | [Requirements](#-requirements)
 ---
 ## 📂 Project Structure
 
