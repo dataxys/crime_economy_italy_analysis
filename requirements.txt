@@ -6,6 +6,7 @@ openpyxl==3.1.2
 # Visualization
 matplotlib==3.8.2
 seaborn==0.13.0
+mplcyberpunk==0.7.1
 
 # Statistical Analysis
 scipy==1.11.4
