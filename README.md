@@ -51,8 +51,10 @@
 
 ```
 notebooks/          # Jupyter notebooks (analysis pipeline)
+data/raw            # All dataset
 data/processed/     # Clean datasets (CSV)
-visualizations/     # Power BI dashboard + screenshots
+visualizations/     # Power BI dashboard
+graphs/             # Pre-visualization graphs
 ```
 ## 📁 Dataset
 - `delitti_completi_2018_2023.csv` - Delitti aggregati
