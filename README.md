@@ -60,21 +60,21 @@ visualizations/     # Power BI dashboard + screenshots
 ---
 ## 📊 Sample Visualizations
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dataxys/crime_economy_italy_analysis/blob/main/analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dataxys/crime_economy_italy_analysis/blob/main/notebooks/analysis.ipynb)
 
 Analisi della relazione tra criminalità ed economia nelle province italiane.
 
 ## Trend Nazionale
-![Trend](graphs/01_trend_nazionale.png)
+![Trend](graphs/01_trend_nazionale1.png)
 
 ## Top 15 Province per Criminalità
-![Top 15](graphs/02_top15_province.png)
+![Top 15](graphs/02_top15_province1.png)
 
 ## Criminalità vs PIL
-![Scatter](graphs/03_crimini_vs_pil.png)
+![Scatter](graphs/03_crimini_vs_pil1.png)
 
 ## Evoluzione Temporale
-![Heatmap](graphs/04_heatmap_evoluzione.png)
+![Heatmap](graphs/04_heatmap_evoluzione1.png)
 
 ## ## 📈 Key Findings
 
