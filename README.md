@@ -47,7 +47,7 @@
 ---
 ## 📂 Project Structure
 
-[Setup](#-setup-locale-5-minuti) | [Requirements](#-requirements)
+![Setup](SETUP.md) | ![Requirements](requirements.txt)
 
 ```
 notebooks/          # Jupyter notebooks (analysis pipeline)
