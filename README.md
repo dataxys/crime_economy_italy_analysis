@@ -61,7 +61,7 @@ graphs/             # Pre-visualization graphs
 * [**delitti_completi_2018_2023.csv** - Delitti aggregati](https://raw.githubusercontent.com/dataxys/crime_economy_italy_analysis/a5ed07a05da6fb4f38b20475f6be49087f3c5a00/data/processed/delitti_completi_2018_2023.csv)
 * [**dataset_finale_powerbi.csv** - Dataset completo per Power BI](https://raw.githubusercontent.com/dataxys/crime_economy_italy_analysis/a5ed07a05da6fb4f38b20475f6be49087f3c5a00/data/processed/dataset_finale_powerbi.csv)
 ---
-## 📊 Sample Visualizations
+## 📊 Pre Visualizations
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dataxys/crime_economy_italy_analysis/blob/main/notebooks/analysis.ipynb)
 
@@ -105,6 +105,14 @@ Analisi della relazione tra criminalità ed economia nelle province italiane.
 
 📊 **Interactive Dashboard:** [Link to Power BI Public](#)
 
+---
+
+![linear](graphs/05_linear_regression.png)
+
+Stimando un modello di regressione lineare per valutare la relazione tra il PIL provinciale e il livello di criminalità normalizzato sulla popolazione, la regressione misura se il PIL può predire l’aumento o la diminuzione dei reati.
+Il coefficiente indica quanto cambiano i crimini per 100.000 abitanti per ogni incremento del PIL.
+L’R² indica quanta parte della variazione criminale è spiegata solo dal PIL.
+Infine, il grafico scatter con la retta di regressione mostra visivamente se la relazione è positiva, negativa o assente.
 ---
 ## 📄 License
 
