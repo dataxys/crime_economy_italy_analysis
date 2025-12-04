@@ -102,21 +102,17 @@ Analisi della relazione tra criminalità ed economia nelle province italiane.
 ### 5. **PIL ≠ Sicurezza**
 - Relazione complessa
 - Altri fattori: disoccupazione, istruzione, servizi
-
-📊 **Interactive Dashboard:** [Link to Power BI Public](#)
-
 ---
 
 ![linear](graphs/05_linear_regression.png)
 
-Stimando un modello di regressione lineare per valutare la relazione tra il PIL provinciale e il livello di criminalità normalizzato sulla popolazione, la regressione misura se il PIL può predire l’aumento o la diminuzione dei reati.
-Il coefficiente indica quanto cambiano i crimini per 100.000 abitanti per ogni incremento del PIL.
-L’R² indica quanta parte della variazione criminale è spiegata solo dal PIL.
-Infine, il grafico scatter con la retta di regressione mostra visivamente se la relazione è positiva, negativa o assente.
----
-## 📄 License
+Dopo aver integrato i dati su criminalità, popolazione e PIL a livello provinciale, abbiamo stimato un modello di regressione lineare per verificare se il PIL possa spiegare parte della variazione dei tassi di criminalità.
+Il coefficiente del modello indica di quanto cambiano i crimini per 100.000 abitanti al crescere del PIL, mentre l’R² misura quanta parte della variabilità dei reati è spiegata esclusivamente da questo indicatore economico.
+La relazione viene visualizzata tramite uno scatterplot con retta di regressione, che permette di valutare immediatamente se il legame è positivo, negativo o debole.
 
-This project is licensed under MIT License - see [LICENSE](LICENSE) for details.
+Infine, la dashboard Power BI esplora nel dettaglio questi risultati: consente di filtrare per anno, confrontare province, analizzare i trend temporali e verificare visivamente l’effetto del PIL sulla criminalità, offrendo una visione integrata e facilmente interpretabile del fenomeno.
+
+📊 **Interactive Dashboard:** [Link to Power BI Public](#)
 
 ---
 ## 🙏 Acknowledgments
@@ -126,4 +122,10 @@ This project is licensed under MIT License - see [LICENSE](LICENSE) for details.
 - **Eurostat** - European Statistics Database
 
 ---
+## 📄 License
+
+This project is licensed under MIT License - see [LICENSE](LICENSE) for details.
+
+---
+
 
