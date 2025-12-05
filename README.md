@@ -126,9 +126,13 @@ Conclusione: La densità abitativa è un predittore più affidabile del PIL per 
 ## 🎯 Limitazioni e Approfondimenti
 Entrambi i modelli sono univariati e quindi semplificati. La criminalità è un fenomeno multifattoriale influenzato da:
 
+
 -Disuguaglianza economica
+
 -Disoccupazione giovanile
+
 -Presenza forze dell'ordine
+
 -Fattori culturali e storici
 
 Per un'analisi più robusta, sarebbe necessario un modello di regressione multipla che includa simultaneamente PIL, densità, disoccupazione e altre variabili di controllo. Inoltre, l'analisi si basa su dati aggregati a livello provinciale, che possono nascondere eterogeneità interne (es. differenze tra capoluogo e hinterland).
