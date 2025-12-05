@@ -110,12 +110,15 @@ Dopo aver integrato i dati su criminalità, popolazione e PIL a livello provinci
 ![linear](graphs/05_linear_regression.png)
 
 1. PIL vs Criminalità
+
 Il primo modello analizza la relazione tra PIL pro capite e crimini per 100.000 abitanti. Il coefficiente positivo del modello (visibile nello scatterplot) suggerisce che province più ricche tendono ad avere tassi di criminalità leggermente più alti. Tuttavia, l'R² relativamente basso (circa 0.15-0.25) indica che il PIL da solo spiega solo una piccola parte della variabilità dei reati. Questo risultato è coerente con la letteratura criminologica: la ricchezza può attrarre crimini contro il patrimonio (furti, rapine) ma non è l'unico driver della criminalità, che dipende anche da fattori sociali, demografici e di enforcement.
 Interpretazione: La correlazione positiva PIL-criminalità è valida ma debole. Province ricche come Milano e Bologna mostrano alti tassi di criminalità, ma esistono molte eccezioni (vedi la dispersione dei punti nel grafico). Il modello conferma che il benessere economico non protegge automaticamente dalla criminalità.
 
 ![linear](graphs/08_regressione_densita.png)
 
 2. Densità Abitativa vs Criminalità
+
+
 Il secondo modello esplora l'impatto della densità abitativa (abitanti/km²) sui tassi di criminalità. Qui emerge una relazione più forte: province ad alta densità mostrano sistematicamente più reati per 100.000 abitanti. L'R² superiore (circa 0.30-0.40) suggerisce che la concentrazione urbana spiega meglio la criminalità rispetto al solo PIL. Questo fenomeno è noto come "effetto città": aree densamente popolate facilitano opportunità criminali, anonimato e mobilità dei delinquenti.
 Conclusione: La densità abitativa è un predittore più affidabile del PIL per stimare i tassi di criminalità. Province metropolitane come Roma, Milano e Napoli confermano questo pattern, mentre aree rurali con basso PIL ma bassa densità (es. Belluno, Sondrio) registrano criminalità contenuta.
 
@@ -123,10 +126,10 @@ Conclusione: La densità abitativa è un predittore più affidabile del PIL per 
 ## 🎯 Limitazioni e Approfondimenti
 Entrambi i modelli sono univariati e quindi semplificati. La criminalità è un fenomeno multifattoriale influenzato da:
 
-Disuguaglianza economica
-Disoccupazione giovanile
-Presenza forze dell'ordine
-Fattori culturali e storici
+-Disuguaglianza economica
+-Disoccupazione giovanile
+-Presenza forze dell'ordine
+-Fattori culturali e storici
 
 Per un'analisi più robusta, sarebbe necessario un modello di regressione multipla che includa simultaneamente PIL, densità, disoccupazione e altre variabili di controllo. Inoltre, l'analisi si basa su dati aggregati a livello provinciale, che possono nascondere eterogeneità interne (es. differenze tra capoluogo e hinterland).
 
