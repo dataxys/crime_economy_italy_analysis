@@ -22,11 +22,11 @@
 ---
 ### 🎯 Obiettivi del Progetto
 
-	1.	Aggregare e standardizzare dati di criminalità ISTAT dal 2018 al 2023.
-	2.	Integrare variabili territoriali: popolazione, PIL provinciale, densità abitativa.
-	3.	Normalizzare la criminalità calcolando il tasso per 100.000 abitanti.
-	4.	Identificare relazioni statistiche tramite regressione lineare semplice.
-	5.	Realizzare una dashboard interattiva in Power BI per l’esplorazione dei fenomeni.
+1.	Aggregare e standardizzare dati di criminalità ISTAT dal 2018 al 2023.
+2.	Integrare variabili territoriali: popolazione, PIL provinciale, densità abitativa.
+3.	Normalizzare la criminalità calcolando il tasso per 100.000 abitanti.
+4.	Identificare relazioni statistiche tramite regressione lineare semplice.
+5.	Realizzare una dashboard interattiva in Power BI per l’esplorazione dei fenomeni.
 
 ---
 ## 📝 Methodology
@@ -34,18 +34,22 @@
 **Analysis Pipeline:**
 
 **Data Collection** - ISTAT (delitti denunciati, Pil territoriale)
+
 **Data Cleaning** - Rimozione inconsistenti, normalizzazione nomi province, conversione numerica, gestione null
+
 **Feature Engineering** - Crimini per 100k = delitti / popolazione × 100.000, Integrazione PIL e densità
+
 **Statistical Analysis** - Regressione lineare Pil/densità -> criminalità
+
 **Visualization** - Grafici - Interactive Power BI dashboard
 
 ---
 ## 🛠️ Tech Stack
 
-	•	Python (Pandas, NumPy, Scikit-learn)
-	•	Matplotlib, Seaborn
-	•	Power BI
-	•	Google Colab / GitHub
+•	Python (Pandas, NumPy, Scikit-learn)
+•	Matplotlib, Seaborn
+•	Power BI
+•	Google Colab / GitHub
   
 ---
 ## 📂 Project Structure
