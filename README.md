@@ -118,7 +118,7 @@ Interpretazione: La correlazione positiva PIL-criminalità è valida ma debole. 
 2. Densità Abitativa vs Criminalità
 Il secondo modello esplora l'impatto della densità abitativa (abitanti/km²) sui tassi di criminalità. Qui emerge una relazione più forte: province ad alta densità mostrano sistematicamente più reati per 100.000 abitanti. L'R² superiore (circa 0.30-0.40) suggerisce che la concentrazione urbana spiega meglio la criminalità rispetto al solo PIL. Questo fenomeno è noto come "effetto città": aree densamente popolate facilitano opportunità criminali, anonimato e mobilità dei delinquenti.
 Conclusione: La densità abitativa è un predittore più affidabile del PIL per stimare i tassi di criminalità. Province metropolitane come Roma, Milano e Napoli confermano questo pattern, mentre aree rurali con basso PIL ma bassa densità (es. Belluno, Sondrio) registrano criminalità contenuta.
----
+
 
 🎯 Limitazioni e Approfondimenti
 Entrambi i modelli sono univariati e quindi semplificati. La criminalità è un fenomeno multifattoriale influenzato da:
@@ -134,7 +134,7 @@ Per un'analisi più robusta, sarebbe necessario un modello di regressione multip
 
 La dashboard interattiva consente di esplorare questi risultati in modo dinamico:
 
-📊 **Interactive Dashboard:** [Link to Power BI Public](#)
+**Interactive Dashboard:** [Link to Power BI Public](#)
 
 ---
 ## 🙏 Acknowledgments
