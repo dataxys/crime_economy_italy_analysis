@@ -9,7 +9,8 @@
 
 ![logo](logo.png)
 
-**Agency esperta di data analytics, impegnata in un progetto di analisi per esplorare la relazione tra criminalità ed economia nel nostro Paese.**
+**Agency esperta di data analytics, impegnata in un Progetto di data analytics volto a studiare l’evoluzione della criminalità in Italia e la sua relazione con fattori economico–demografici come PIL provinciale, densità abitativa e popolazione.
+**
 
 ## 👥 Team
 - **Davide Bruseghin** – Economist Specialist & Data Provider
@@ -21,29 +22,31 @@
 ---
 ### 🎯 Obiettivi del Progetto
 
-1. **Consolidamento Dati:** Unire set di dati eterogenei (Delitti, Popolazione, Spesa Pubblica) provenienti da fonti istituzionali (Ministero dell'Interno, ISTAT).
-2. **Normalizzazione:** Pulizia e standardizzazione dei dati per permettere confronti regionali e temporali omogenei.
-3. **Analisi di Correlazione:** Esplorare la relazione tra il **Tasso di Delittuosità per 100.000 abitanti** e la **Popolazione** e la **Spesa Pubblica** regionale.
+	1.	Aggregare e standardizzare dati di criminalità ISTAT dal 2018 al 2023.
+	2.	Integrare variabili territoriali: popolazione, PIL provinciale, densità abitativa.
+	3.	Normalizzare la criminalità calcolando il tasso per 100.000 abitanti.
+	4.	Identificare relazioni statistiche tramite regressione lineare semplice.
+	5.	Realizzare una dashboard interattiva in Power BI per l’esplorazione dei fenomeni.
 
 ---
 ## 📝 Methodology
 
 **Analysis Pipeline:**
-1. **Data Collection** - ISTAT, Eurostat APIs
-2. **Data Cleaning** - Standardization, NULL handling, Excel consolidation
-3. **Feature Engineering** - Crime rates per capita, economic indicators
-4. **Statistical Analysis** - Correlation, regression, hypothesis testing
-5. **Visualization** - Interactive Power BI dashboard
-6. **Insights** - Business recommendations
+
+**Data Collection** - ISTAT (delitti denunciati, Pil territoriale)
+**Data Cleaning** - Rimozione inconsistenti, normalizzazione nomi province, conversione numerica, gestione null
+**Feature Engineering** - Crimini per 100k = delitti / popolazione × 100.000, Integrazione PIL e densità
+**Statistical Analysis** - Regressione lineare Pil/densità -> criminalità
+**Visualization** - Grafici - Interactive Power BI dashboard
 
 ---
 ## 🛠️ Tech Stack
 
-- **Data Processing:** Python (Pandas, NumPy)
-- **Statistical Analysis:** SciPy, Statsmodels
-- **Visualization:** Matplotlib, Seaborn, Power BI
-- **Notebook Environment:** Google Colab
-- **Version Control:** Git, GitHub
+	•	Python (Pandas, NumPy, Scikit-learn)
+	•	Matplotlib, Seaborn
+	•	Power BI
+	•	Google Colab / GitHub
+  
 ---
 ## 📂 Project Structure
 
@@ -82,26 +85,25 @@ Analisi della relazione tra criminalità ed economia nelle province italiane.
 
 ## ## 📈 Key Findings
 
+### 1. **Relazione debole tra PIL e criminalità**
+- Le province economicamente più ricche non mostrano tassi di criminalità significativamente diversi.
+- PIL non è un predittore affidabile dei reati per abitante.
 
-### 1. **Correlazione debole tra PIL e criminalità**
-- Province ricche ≠ Più/Meno crimini
-- PIL non predice direttamente la criminalità
-
-### 2. **Popolazione è il fattore principale**
-- Dimensione provincia spiega meglio i crimini totali
-- Normalizzazione essenziale per confronti
+### 2. **Densità abitativa: il fattore più rilevante**
+- Le province con alta densità mostrano tassi di criminalità sistematicamente più elevati.
+- La struttura urbana (concentrazione, mobilità, anonimato) sembra influire più dell’economia.
 
 ### 3. **Outlier territoriali**
-- Alcune province hanno dinamiche uniche
-- Es: Milano, Roma, Napoli
+- Grandi aree metropolitane (Milano, Roma, Napoli) deviano fortemente dal comportamento medio.
+- Le province rurali mostrano dinamiche molto più stabili e contenute.
 
-### 4. **Normalizzazione cambia tutto**
-- Crimini assoluti vs per 100k: storie diverse
-- Province piccole possono avere tassi alti
+### 4. **Importanza della normalizzazione**
+- I valori assoluti dei crimini sono fuorvianti: province piccole possono avere tassi più alti.
+- Il tasso per 100.000 abitanti è essenziale per confronti corretti.
 
 ### 5. **PIL ≠ Sicurezza**
-- Relazione complessa
-- Altri fattori: disoccupazione, istruzione, servizi
+- Non emerge una relazione chiara tra benessere economico e sicurezza.
+- La criminalità è un fenomeno multifattoriale: disoccupazione, istruzione, demografia e servizi incidono più del PIL.
 ---
 
 ## 📊 Analisi di Regressione: PIL e Densità Abitativa
