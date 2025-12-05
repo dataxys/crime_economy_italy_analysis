@@ -104,7 +104,8 @@ Analisi della relazione tra criminalità ed economia nelle province italiane.
 - Altri fattori: disoccupazione, istruzione, servizi
 ---
 
-📊 Analisi di Regressione: PIL e Densità Abitativa
+## 📊 Analisi di Regressione: PIL e Densità Abitativa
+
 Dopo aver integrato i dati su criminalità, popolazione e PIL a livello provinciale, abbiamo stimato due modelli di regressione lineare per comprendere quali fattori influenzano maggiormente i tassi di criminalità.
 
 ![linear](graphs/05_linear_regression.png)
@@ -120,7 +121,7 @@ Il secondo modello esplora l'impatto della densità abitativa (abitanti/km²) su
 Conclusione: La densità abitativa è un predittore più affidabile del PIL per stimare i tassi di criminalità. Province metropolitane come Roma, Milano e Napoli confermano questo pattern, mentre aree rurali con basso PIL ma bassa densità (es. Belluno, Sondrio) registrano criminalità contenuta.
 
 
-🎯 Limitazioni e Approfondimenti
+## 🎯 Limitazioni e Approfondimenti
 Entrambi i modelli sono univariati e quindi semplificati. La criminalità è un fenomeno multifattoriale influenzato da:
 
 Disuguaglianza economica
@@ -130,7 +131,7 @@ Fattori culturali e storici
 
 Per un'analisi più robusta, sarebbe necessario un modello di regressione multipla che includa simultaneamente PIL, densità, disoccupazione e altre variabili di controllo. Inoltre, l'analisi si basa su dati aggregati a livello provinciale, che possono nascondere eterogeneità interne (es. differenze tra capoluogo e hinterland).
 
-📊 Dashboard Power BI
+## 📊 Dashboard Power BI
 
 La dashboard interattiva consente di esplorare questi risultati in modo dinamico:
 
