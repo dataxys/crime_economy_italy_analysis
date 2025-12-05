@@ -9,8 +9,7 @@
 
 ![logo](logo.png)
 
-**Agency esperta di data analytics, impegnata in un Progetto di data analytics volto a studiare l’evoluzione della criminalità in Italia e la sua relazione con fattori economico–demografici come PIL provinciale, densità abitativa e popolazione.
-**
+**Agency esperta di data analytics, impegnata in un Progetto di data analytics volto a studiare l’evoluzione della criminalità in Italia e la sua relazione con fattori economico–demografici come PIL provinciale, densità abitativa e popolazione.**
 
 ## 👥 Team
 - **Davide Bruseghin** – Economist Specialist & Data Provider
