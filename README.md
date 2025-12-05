@@ -81,7 +81,6 @@ Analisi della relazione tra criminalità ed economia nelle province italiane.
 
 ## ## 📈 Key Findings
 
-## 🔑 KEY INSIGHTS
 
 ### 1. **Correlazione debole tra PIL e criminalità**
 - Province ricche ≠ Più/Meno crimini
@@ -114,7 +113,7 @@ Dopo aver integrato i dati su criminalità, popolazione e PIL a livello provinci
 Il primo modello analizza la relazione tra PIL pro capite e crimini per 100.000 abitanti. Il coefficiente positivo del modello (visibile nello scatterplot) suggerisce che province più ricche tendono ad avere tassi di criminalità leggermente più alti. Tuttavia, l'R² relativamente basso (circa 0.15-0.25) indica che il PIL da solo spiega solo una piccola parte della variabilità dei reati. Questo risultato è coerente con la letteratura criminologica: la ricchezza può attrarre crimini contro il patrimonio (furti, rapine) ma non è l'unico driver della criminalità, che dipende anche da fattori sociali, demografici e di enforcement.
 Interpretazione: La correlazione positiva PIL-criminalità è valida ma debole. Province ricche come Milano e Bologna mostrano alti tassi di criminalità, ma esistono molte eccezioni (vedi la dispersione dei punti nel grafico). Il modello conferma che il benessere economico non protegge automaticamente dalla criminalità.
 
-![linear](graphs/08_regressione_densita)
+![linear](graphs/08_regressione_densita.png)
 
 2. Densità Abitativa vs Criminalità
 Il secondo modello esplora l'impatto della densità abitativa (abitanti/km²) sui tassi di criminalità. Qui emerge una relazione più forte: province ad alta densità mostrano sistematicamente più reati per 100.000 abitanti. L'R² superiore (circa 0.30-0.40) suggerisce che la concentrazione urbana spiega meglio la criminalità rispetto al solo PIL. Questo fenomeno è noto come "effetto città": aree densamente popolate facilitano opportunità criminali, anonimato e mobilità dei delinquenti.
