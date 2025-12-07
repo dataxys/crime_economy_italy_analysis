@@ -16,7 +16,6 @@
 - **Gabriele De Carlo** – Data Insights & Statistician
 - **Alessandro Ferilli** – Data Engineer  &  Structural Archetype
 - **Valeria Gangi** – Data Manipulation & Visualization Specialist 
-- **Roman Luciano** - Business Intelligence & Storyteller 
 
 ---
 ### 🎯 Obiettivi del Progetto
@@ -83,9 +82,6 @@ Analisi della relazione tra criminalità ed economia nelle province italiane.
 
 ## Criminalità vs PIL
 ![Scatter](graphs/03_crimini_vs_pil.png)
-
-## Evoluzione Temporale
-![Heatmap](graphs/04_heatmap_evoluzione.png)
 
 ## ## 📈 Key Findings
 
