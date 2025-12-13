@@ -146,7 +146,7 @@ Per un'analisi più robusta, sarebbe necessario un modello di regressione multip
 
 La dashboard interattiva consente di esplorare questi risultati in modo dinamico:
 
-**Interactive Dashboard:** [[Link to Power BI Public](https://app.powerbi.com/groups/me/reports/1a0a0cee-f156-467e-9e11-75bcab807037/371c88b3c4db8907703d?experience=power-bi)](#)
+**Interactive Dashboard:** [[Link to Power BI Public](https://app.powerbi.com/groups/me/reports/9021552a-575c-4a26-bf74-0b82a4cf477f/371c88b3c4db8907703d?experience=power-bi)](#)
 
 ---
 ## 🙏 Acknowledgments
